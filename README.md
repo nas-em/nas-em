@@ -1,8 +1,4 @@
-- 👋 Hi, I’m @nas-em
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning HTML & Pyhton 
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me @naseeeeemm on Instagram
+
 
 <!---
 nas-em/nas-em is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
