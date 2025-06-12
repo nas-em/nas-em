@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>my little universe</title>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #f5f0e6;
+      --accent: #c1440e;
+      --text: #2a2a2a;
+      --soft: rgba(0,0,0,0.05);
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg-color);
+      font-family: 'EB Garamond', serif;
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem 1rem;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .divider {
+      width: 80px;
+      height: 2px;
+      background: var(--accent);
+      margin: 0 auto 2rem;
+    }
+
+    section {
+      margin: 3rem auto;
+      max-width: 900px;
+      padding: 0 1rem;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      position: relative;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 2px 2px 8px var(--soft);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px) rotate(-1deg);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>my little universe</h1>
+    <div class="divider"></div>
+    <p>a scrapbook of sounds, screens, and thoughts</p>
+  </header>
+
+  <section>
+    <h2 class="section-title">Now Playing</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x300" alt="album cover">
+        <strong>Fishmans – Uchu Nippon Setagaya</strong>
+        <p>Floating in reverb and memory.</p>
+      </div>
+      <!-- More albums -->
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Screen Time</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x450" alt="film poster">
+        <strong>Perfect Blue (1997)</strong>
+        <p>Reality blurs. Identity shivers.</p>
+      </div>
+      <!-- More films -->
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">On My Shelf</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://via.placeholder.com/200x300" alt="book cover">
+        <strong>Norwegian Wood – Haruki Murakami</strong>
+        <p>Melancholy in pages, soft and slow.</p>
+      </div>
+      <!-- More books -->
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Scraps from the Void</h2>
+    <div class="card">
+      <p>“Some nights I just write things I can’t say out loud. And it feels like telling the moon a secret.”</p>
+    </div>
+  </section>
+
+  <footer>
+    built with love and static electricity ✧･ﾟ: *
+  </footer>
+</body>
+</html>
